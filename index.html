@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yadnyika Patil | Portfolio</title>
+    <style>
+      :root {
+        --primary: #007bff;
+        --background: #ffffff;
+        --text-dark: #222;
+        --text-light: #fff;
+      }
+
+      body {
+        font-family: "Segoe UI", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: var(--background);
+        color: var(--text-dark);
+      }
+
+      header {
+        background: var(--primary);
+        color: var(--text-light);
+        text-align: center;
+        padding: 3rem 1rem 4rem;
+        position: relative;
+      }
+
+      .profile-img {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 6px solid #fff;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -80px;
+        background-color: #fff;
+      }
+
+      main {
+        max-width: 900px;
+        margin: 100px auto 40px;
+        padding: 2rem;
+        background-color: #f8faff;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      }
+
+      section {
+        margin-bottom: 2.5rem;
+      }
+
+      h1 {
+        margin-bottom: 0.2rem;
+        font-size: 2.5rem;
+      }
+
+      h2 {
+        color: var(--primary);
+        border-bottom: 2px solid var(--primary);
+        padding-bottom: 0.4rem;
+        margin-bottom: 1rem;
+      }
+
+      ul {
+        padding-left: 1.5rem;
+      }
+
+      footer {
+        text-align: center;
+        background: var(--primary);
+        color: var(--text-light);
+        padding: 1rem;
+        font-size: 0.9rem;
+      }
+
+      .video-container {
+        text-align: center;
+        margin: 2rem 0;
+      }
+
+      .intro-video {
+        width: 90%;
+        max-width: 500px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Yadnyika Patil</h1>
+      <p>Electronics and Computer Science | Mumbai University</p>
+      <!-- Replace with your actual image filename -->
+      <img src="C:\Users\hp\Desktop\yadnyka1\profile.jpg" alt="Yadnyika Patil" class="profile-img" />
+    </header>
+
+    <main>
+      <div class="video-container">
+        <!-- Replace with your actual video filename -->
+        <video class="intro-video" controls>
+          <source src="intro.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p><strong>Name:</strong> Yadnyika Patil</p>
+        <p><strong>Location:</strong> Thane</p>
+        <p>
+          <strong>Education:</strong> Electronics and Computer Science, Mumbai
+          University
+        </p>
+        <p><strong>Languages Known:</strong> English, Hindi, Marathi</p>
+      </section>
+
+      <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+          <li>Currently in Second Year of Engineering</li>
+          <li>Completed courses on Unix and VLSI Trends</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <p><strong>Heart Rate Monitoring System using ESP8266</strong></p>
+        <ul>
+          <li>Tools: Arduino IDE, Pulse Sensor, SSD1306 OLED, ThingSpeak</li>
+          <li>Built a real-time heart rate monitoring system</li>
+          <li>Integrated ESP8266 with sensors and OLED</li>
+          <li>Data logging on ThingSpeak for remote monitoring</li>
+        </ul>
+      </section>
+
+      <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+          <li>Innovative Trends in VLSI and Semiconductor Engineering</li>
+          <li>Introduction to Unix</li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>
+            <strong>Programming:</strong> C, C++, Python, Arduino IDE, MATLAB
+          </li>
+          <li>
+            <strong>Hardware:</strong> Arduino, ESP8266, Pulse Sensor, DHT11,
+            OLED
+          </li>
+          <li><strong>IoT Platforms:</strong> ThingSpeak, Blynk, MQTT</li>
+        </ul>
+      </section>
+
+      <section id="goals">
+        <h2>Future Goals</h2>
+        <p>
+          I aim to contribute to embedded systems and IoT, especially in health
+          tech. I'm interested in blending real-time sensors with data science
+          for impactful innovations.
+        </p>
+      </section>
+
+      <section id="personal">
+        <h2>Personal Side</h2>
+        <p>
+          <strong>Hobbies:</strong> Exploring new places, graphic design,
+          cooking, painting
+        </p>
+        <p>
+          <strong>Role Models:</strong> I admire role models who inspire
+          creativity and service to others.
+        </p>
+        <p>
+          <strong>Favorite Books/Websites/Startups:</strong> I love learning
+          from tech sites and startups working on smart healthcare.
+        </p>
+        <p>
+          <strong>Volunteering Experience:</strong> Involved in student groups
+          and event management.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Yadnyika Patil. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
